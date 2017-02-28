@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Tickets</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Choose movie:</h2>
+          <form id="new-ticket">
+            <div id="new-ticket" >
+              <div class="new-ticket">
+                <div class="form-group">
+                  <label for="new-movieTitle">Movie Title</label>
+                  <select class="new-movieTitle" name="new-movieTitle">
+                    <option id="mXmen" value="6">X-Men Revolution</option>
+                    <option id="Designated" value="6">Designated-Survivor</option>
+                    <option id="Pure-Genius" value="8">Pure-Genius</option>
+                    <option id="Dirty-Grandpa" value="6">Dirty Grandpa</option>
+                  </select>
+                </div><br>
+                <div class="form-group">
+                  <label for="new-movieType">Movie Type</label>
+                  <select class="new-movieType" name="new-movieType">
+                    <option id="Comedy" value="6">Comedy</option>
+                    <option id="Action" value="6">Action</option>
+                    <option id="Romance" value="8">Romance</option>
+                    <option id="Horror" value="6">Horror</option>
+                  </select>
+                </div><br>
+                <div class="form-group">
+                  <label for="new-movieTime">Movie Time</label>
+                  <select class="new-movieTime" name="new-movieTime">
+                    <option value="-2">1145 hrs</option>
+                    <option value="-1">1600 hrs</option>
+                    <option value="0">1830 hrs</option>
+                    <option value="-3">2200 hrs</option>
+                  </select>
+                </div><br>
+                <div class="form-group">
+                  <label for="new-userAge">Ticket Type</label>
+                  <select class="new-userAge" name="new-userAge">
+                    <option value="-5">First Releases Movies</option>
+                    <option value="0">Matinee</option>
+                    <option value="-1">Senior-Tickets</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn">Total Price:</button>
+          </form>
+          <div id="price">
+            <h2>Ticket Price:</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="poster">
+            <h2></h2>
+            
+          </div>
+        
+              </div>
+            </div>
+          </body>
+        </html>
