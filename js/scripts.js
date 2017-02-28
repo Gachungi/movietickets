@@ -21,3 +21,17 @@ $(document).ready(function() {
 
         var newTicket = new Ticket(inputTitle, inputTime, inputAge, inputType);
 
+        $("#price h2").text("Ticket Price: " + "Ksh" + newTicket.ticketPrice() + "00");
+        console.log(newTicket.ticketPrice);
+
+        $("#price").show();
+    });
+
+    $("option#mXmen").click(function(){
+        $("#poster h2").text("what up");
+
+        $("#poster").append('<img src="http://t0.gstatic.com/images?q=tbn:ANd9GcTUyhL5rNv0LOhoGEVHyqvHb_MQZxKLbi7jvPUV6gKz3g_aHPzj" />');
+    });
+
+    $("#poster").show();
+});
